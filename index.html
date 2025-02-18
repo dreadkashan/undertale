@@ -6,7 +6,7 @@
         <h5>
 
         </h5>
-        <p></p>
+        <p id="chara"></p>
         <script>
             var msg='welcome to undertale'
             document.write(msg.toUpperCase());
@@ -14,6 +14,13 @@
 document.write(msg.toLowerCase());
 document.write('<br>');
 document.write(msg.startsWith('c'));
+var fruits=['pineapple','apple','orange']
+var text=''
+var i;
+for (i=0;i<fruits.length;i++){
+    text +=fruits[i]+'<br>';
+}
+document.getElementById('chara').innerHTML=text
         </script>
     </body>
 </html>
